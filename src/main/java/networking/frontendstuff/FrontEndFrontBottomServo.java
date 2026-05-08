@@ -1,0 +1,10 @@
+package networking.frontendstuff;
+
+import networking.sessionsockets.FrontendConnectionEndpoint;
+
+public class FrontEndFrontBottomServo extends FrontendConnectionEndpoint {
+
+    
+
+
+}

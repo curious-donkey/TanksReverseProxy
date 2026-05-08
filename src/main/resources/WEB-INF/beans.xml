@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="https://jakarta.ee/xml/ns/jakartaee"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee 
+       https://jakarta.ee/xml/ns/jakartaee/beans_4_0.xsd"
+       version="4.0" bean-discovery-mode="all">
+    
+    <!-- Enable CDI for all beans in the application -->
+    <!-- This allows for dependency injection using @Inject annotations -->
+    
+    <!-- Optional: Configure interceptors -->
+    <interceptors>
+        <!-- Add interceptor classes here if needed -->
+    </interceptors>
+    
+    <!-- Optional: Configure decorators -->
+    <decorators>
+        <!-- Add decorator classes here if needed -->
+    </decorators>
+    
+    <!-- Optional: Configure alternatives -->
+    <alternatives>
+        <!-- Add alternative implementations here if needed -->
+    </alternatives>
+
+</beans>
